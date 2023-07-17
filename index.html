@@ -3,52 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First css line</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-   
+    <script src="https://kit.fontawesome.com/1b45767895.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="background">
-      <div class="contact-section">
-        <h1>Contact Us</h1>
-        <form id="contact-form" method="post" action="submit_form.php">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <input type="number" name="phone" placeholder="Your phone number" required>
-          <input type="text" name="Address" placeholder="Your address" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <input type="submit" value="Send Message">
-        </form>
-      </div>
-      <div class="contact-info">
-        <h1>Connect With Us</h1>
-        <p>We would like to response to your queries and help you succeed. </p>
-        <p><strong>Address:</strong> 123 park Street, kolkata, West Bengal</p>
-        <p><strong>Phone:</strong> (123) 456-7890</p>
-        <p><strong>Email:</strong> info@delizisiorestaurants.com</p>
-      </div>
-      <section class="reservation">
-        <h1>Make Reservation</h1>
-        <form>
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" required>
-      
-          <label for="time">Time:</label>
-          <input type="time" id="time" name="time" required>
-      
-          <label for="guests">Number of Guests:</label>
-          <input type="number" id="guests" name="guests" min="1" required>
-      
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-      
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-      
-          <input type="submit" value="Make Reservation">
-        </form>
-      </section>
+    
+    <header>
+         <img src="photo2.jpeg" alt="" height="70px" class="logo">
+
+          <nav class="navbar">
+            <a href="" class="active">HOME</a>
+            <a href="http://127.0.0.1:5500/restaurant">ABOUT</a> 
+            <a href="">GALLERY</a>
+            <a href="">MENU</a>
+            <a href="">CONTACT US</a>
+        </nav>
+
+        <div class="icons">
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </header>
+    <img src="photo.jpeg" alt="" class="bg">
+    <section class="first">
+        <!-- <p class="one">welcome</p> -->
+        <p class="two">delizisio</p>
+        <p class="three">Food that tells a story</p>
+    </section>
+
+    <div class="second">
+        <div><i class="fa-sharp fa-solid fa-place-of-worship fa-fade fa-2xl" style="color: #ff1100;"></i><p>An unforgettable dining experience for you and your family.</p></div>
+        <div><i class="fa-solid fa-bell-concierge fa-fade fa-2xl" style="color: #ff2600;"></i><p>Delizisio has spread its aroma in this industry over the past few years.</p></div>
+        <div><i class="fa-solid fa-indian-rupee-sign fa-fade fa-2xl" style="color: #ff0000;"></i><p>Robust honest and full of flavor with finest & freshest ingredients at fair prices.</p></div>
+        <div><i class="fa-solid fa-star fa-fade fa-2xl" style="color: #ff0000;"></i><p>We are friendly, available, attentive and quick to take care of customers' needs.</p></div>
     </div>
-     
+
+    <div class="third">
+        <div class="left">
+            <h2>Discover our story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, explicabo cupiditate, ea mollitia error nobis eligendi harum quae illum provident quidem voluptates omnis beatae. Quo quod accusantium nemo, at neque voluptas iure optio officiis laboriosam mollitia excepturi error sint alias facilis dolore quasi deleniti ex doloremque ullam? Labore, quisquam quia.</p>
+            <a href="">Read about us</a>
+        </div>
+        <div class="right">
+            <img src="photo3.png" alt="">
+        </div>
+    </div>
+    <div class="four">
+        <!-- <img src="photo4.png" alt=""> -->
+       <div><p>delizisio is serving the food loving people of Kolkata with a variety of continental dishes</p></div> 
+    </div>
+
+    <div class="five">
+        <p class="h">Our daily Offers</p>
+        <div class="menu">
+            <div><p><img src="photo5.png" alt="" title="">Prawn Pie</p><span>Rs:400</span></div>
+            <div><p><img src="photo6.png" alt="">Roast Lamb Salad</p><span>Rs:350</span></div>
+            <div><p><img src="photo7.png" alt="">Sticky Toffee Pudding</p><span>Rs:550</span></div>
+            <div><p><img src="photo8.png" alt="">Paneer Steak</p><span>Rs:700</span></div>
+        </div>
+    </div>
+
+<br>
+    <footer class="foot">
+        <p class="mail">E-MAIL:delizisio_2023@gmail.com</p>
+            <div><a href=""><i class="fa-brands fa-square-instagram fa-beat-fade fa-2xl" style="color: #d923e7;"></i></a>
+                <a href=""><i class="fa-brands fa-facebook fa-fade fa-2xl" style="color: #5b8ff5;"></i></a>
+                <a href=""><i class="fa-brands fa-youtube fa-beat-fade fa-2xl" style="color: #f94343;"></i></a></div>
+            <p>&copy; All rights reserved. Powered by <b>Wir Madchen</b></p>
+       
+    </footer>
+   <script src="script.js"></script>
 </body>
 </html>
