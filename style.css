@@ -1,190 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    
+.contact-section {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
 }
 
-.background-image{
-    background-image: url('WhatsApp Image 2023-07-16 at 1.48.23 PM.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 20%;
-    width: 100%;
-    height: 50vh;
+.contact-section h2 {
+  margin-bottom: 20px;
 }
 
-header{
-    position: fixed;
-    top: 0;left: 0;right: 0;
-    background: black;
-    padding: 1rem 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index:1000;
-    box-shadow: 0 2px 2px rgb(247, 233, 207);
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-header .navbar a{
-    font-size: 1.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 5rem;
-    padding: .5rem 1.5rem;
-    color: antiquewhite;
-    font-weight: bold;
+.contact-section input[type="submit"] {
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
 }
 
-header .navbar a .active,
-header .navbar a:hover{
-    cursor: pointer;
-    background-color: rgba(254, 254, 254, 0.448);
+.contact-section input[type="submit"]:hover {
+  background-color: #f66;
 }
 
-header .icons i{
-    cursor: pointer;
-    margin-left: 5rem;
-    height: 4.5rem;
-    line-height: 4.5rem;
-    width: 4.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    color: antiquewhite;
-    border-radius: 50%;
-    display: none;
+.contact-section textarea {
+  height: 100px;
+}
+.contact-info {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: #0dff00;
 }
 
-header .icons i:hover{
-    background-color: rgba(240, 248, 255, 0.284);
-    transform:rotate(360deg);
+.contact-info h2 {
+  margin-bottom: 20px;
 }
 
-.container{
-    width: 100%;
-    text-align: center;
+.contact-info p {
+  margin-bottom: 10px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(7, 7, 7);
+ }
+.background{
+      width: 100%;
+      height: 150vh;
+      background-image: url("photo.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+.reservation {
+    width: 400px;
+    margin: 0 auto;
+   color: rgb(255, 255, 255);
 }
 
-h1{
-    font-weight: normal;
-    font-size: 50px;
-    color: antiquewhite;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: relative;
-    margin: 40px 0;
+.reservation h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-h1::before{
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: crimson;
-    bottom: -10px;
-    left: 50%;
-    transform: translatex(-50%);
-    animation: animate 4s linear infinite;
+.reservation form {
+  margin-top: 10px;
 }
-@keyframes animate{
-    0%{
-        width: 100px;
-    }
-    50%{
-        width: 200px;
-    }
-    100%{
-        width: 100px;
-    }
+.reservation input {
+  display: block;
+  margin-bottom: 10px;
 }
 
-body{
-    background: black;
-}
-
-.img-gallery{
-    width: 80%;
-    margin: 100px auto 50px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-    transition: 1s;
-}
-
-.img-gallery img{
-    width: 100%;
-    cursor: pointer;
-}
-
-.img-gallery img:hover{
-    transform: scale(1.3);
-    border-radius: 20px;
-    box-shadow: 0 32px 75px rgba(137, 145, 200, 0.2);
-    z-index: 2;
-}
-
-/* .full-img{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(226, 243, 248);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-}
-
-.full-img img{
-    width: 90%;
-    max-width: 500px;
-}
-
-.full-img span{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 25px;
-    color: black;
-    padding: 30%;
-    cursor: pointer;
-} */
-.foot{
-    background-color: black;
-    width: 100%;
-    height: 15rem;
-    padding-top: 2rem;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-.foot .mail{
-    color: antiquewhite;
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.foot div{
-    margin: 2rem 0 2rem 60rem;
-}
-
-.foot div a{
-    margin-left:5rem ;
-    
-    padding:1rem 1rem 1rem 1rem;
-}
-
-
-.foot p{
-    color: antiquewhite;
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.foot a:hover{
-    background-color: rgba(225, 255, 0, 0.281);
+.reservation input[type="submit"] {
+  background-color: #d71b1bfc;
+  color: #837d7d;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
 }
