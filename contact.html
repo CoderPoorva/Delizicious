@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First css line</title>
+    <link rel="stylesheet" href="contact.css">
+   
+</head>
+<body>
+    <div class="background">
+      <div class="contact-section">
+        <h1>Contact Us</h1>
+        <form id="contact-form" method="post" action="submit_form.php">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="number" name="phone" placeholder="Your phone number" required>
+          <input type="text" name="Address" placeholder="Your address" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+      <div class="contact-info">
+        <h1>Connect With Us</h1>
+        <p>We would like to response to your queries and help you succeed. </p>
+        <p><strong>Address:</strong> 123 park Street, kolkata, West Bengal</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> info@delizisiorestaurants.com</p>
+      </div>
+      <section class="reservation">
+        <h1>Make Reservation</h1>
+        <form>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+      
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+      
+          <label for="guests">Number of Guests:</label>
+          <input type="number" id="guests" name="guests" min="1" required>
+      
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <input type="submit" value="Make Reservation">
+        </form>
+      </section>
+    </div>
+     
+</body>
+</html>
