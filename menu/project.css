@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0; 
+  
+    background-color:black;
+    
+}
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: black;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: 0 2px 2px rgb(247, 233, 207);
+
+}
+
+header .navbar a{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5rem;
+    padding-left:70px;
+   color: rgb(242, 143, 22);
+    font-weight: bold;
+  
+}
+
+header .navbar a .active,
+header .navbar a:hover{
+    cursor: pointer;
+    color: gold;
+  
+}
+
+header .icons i{
+    cursor: pointer;
+    margin-left: 5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    border-radius: 50%;
+    display: none;
+}
+
+header .icons i:hover{
+    background-color: rgba(240, 248, 255, 0.284);
+    transform:rotate(360deg);
+}
+
+.logo{
+    /* background-color: black; */
+    background:url('../bg.img.jpeg');
+    /* background-blend-mode: darken; */
+    height: 150px;
+    
+    
+}
+.logo img{
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    margin-left: 350px;
+   
+
+}
+.heading{ 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+.container{
+     /* background-color: pink; */
+    float:left;
+    justify-content: center;
+    margin-left: 30px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h3{
+    text-align: center;
+    color:antiquewhite;
+}
+.container li{
+ color:antiquewhite;
+}
