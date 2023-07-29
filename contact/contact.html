@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,71 +18,57 @@
     </style>
     <link rel="stylesheet" href="contact.css">
     </head>
-    <body>
-        <section>
-            <div class="container">
-                <div class="contactInfo"> 
-                    <div>
-                        <h2>Contact Info</h2>
-                        <ul class="info">
-                            <li>
-                                <span><img src="images/location.png"></span>
-                                <span>Kolkata, Anandapur<br>
-                                    305, RR plot<br>
-                                    700107</span>
-                                </span>
-                            </li>
-                            <li>
-                                <span><img src="images/mail.png"></span>
-                                <!-- <span>nassosanagn@gmail.com</span> -->
-                                <span><a href = "mailto: arnabmanna203@gmail.com">arnabmanna203@gmail.com</a></span>
-                            </li>
-                            <li>
-                                <span><img src="images/call.png"></span>
-                                <span>9733193689</span>
-                            </li>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +91 91238 19062</div>
+                    </div>
+                    <form name="contact" netlify>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME: Poorva">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE :)">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">CANCEL</button>
+                                <button class="app-form-button">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
+    </div>
 
-                        </ul>
-                    </div>
-                    <ul class="sci">
-                        <li><a href="#"><img src="images/1.png"></a></li>
-                        <li><a href="#"><img src="images/3.png"></a></li>
-                        <li><a href="#"><img src="images/2.png"></a></li>
-                        <li><a href="#"><img src="images/5.png"></a></li>
-                        
-                    </ul>
-                </div>
-                    <div class="contactForm">
-                        <h2>Send a Message</h2>
-                        <div class="formBox">
-                        <div class="inputBox w50">
-                            <input type="text" name="" required>
-                            <span>First Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" required>
-                            <span>Last Name</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="email" required>
-                            <span>Email Address</span>
-                        </div>
-                        <div class="inputBox w50">
-                            <input type="text" required>
-                            <span>Mobile Number</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <textarea required></textarea>
-                            <span>Write your message here...</span>
-                        </div>
-                        <div class="inputBox w100">
-                            <input type="submit" value="Send">
-                        </div>
-                    </div>
-                </div>
-                    
-                    
-             
-        </section>
-    </body>
+</body>
 </html>
