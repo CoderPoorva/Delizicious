@@ -1,54 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!doctype html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title> Contact Us</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/news2.png"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+    </style>
     <link rel="stylesheet" href="contact.css">
-   
-</head>
+    </head>
 <body>
     <div class="background">
-      <div class="contact-section">
-        <h1>Contact Us</h1>
-        <form id="contact-form" method="post" action="submit_form.php">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <input type="number" name="phone" placeholder="Your phone number" required>
-          <input type="text" name="Address" placeholder="Your address" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <input type="submit" value="Send Message">
-        </form>
-      </div>
-      <div class="contact-info">
-        <h1>Connect With Us</h1>
-        <p>We would like to response to your queries and help you succeed. </p>
-        <p><strong>Address:</strong> 123 park Street, kolkata, West Bengal</p>
-        <p><strong>Phone:</strong> (123) 456-7890</p>
-        <p><strong>Email:</strong> info@delizisiorestaurants.com</p>
-      </div>
-      <section class="reservation">
-        <h1>Make Reservation</h1>
-        <form>
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" required>
-      
-          <label for="time">Time:</label>
-          <input type="time" id="time" name="time" required>
-      
-          <label for="guests">Number of Guests:</label>
-          <input type="number" id="guests" name="guests" min="1" required>
-      
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-      
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-      
-          <input type="submit" value="Make Reservation">
-        </form>
-      </section>
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>CONTACT</span>
+                            <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +91 91238 19062</div>
+                    </div>
+                    <form name="contact" netlify>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME: Poorva">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE :)">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">CANCEL</button>
+                                <button class="app-form-button">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+           
+        </div>
     </div>
-     
+
 </body>
 </html>
